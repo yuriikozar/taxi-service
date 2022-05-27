@@ -34,6 +34,8 @@ You need to install:
 - In ConnectionUtil (src/main/java/taxi/util/ConnectionUtil) class change URL, USERNAME and PASSWORD with your data
 - Configure Apache Tomcat web-server:
     + Add New Configuration -> TomCat -> Local -> Fix -> taxi-service:war exploded -> OK)
+  
+- Due to some logging issues, please, in the src/main/resources/log4j2.xml at line File name = "File" fileName = "logs\app.log" replace "logs\app.log" with absolute path to .log file
 
 
 
